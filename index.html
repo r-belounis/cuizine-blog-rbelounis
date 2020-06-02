@@ -7,85 +7,105 @@
   <title>Cui'zine, le mag cuizine</title>
   <!-- Stylesheets -->
   <link rel="stylesheet" href="./assets/css/vendor/bootstrap.min.css">
-  <link rel="stylesheet" href="./assets/css/header.css">
-  <link rel="stylesheet" href="./assets/css/utils.css">
+  <link rel="stylesheet" href="./assets/css/main.css">
 </head>
 <body>
-    <div class="container-fluid bg-image-1 p-0">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-rgba-dark border-bottom">
-            <a class="navbar-brand" href="#">Cui'zine</a>
-            <!-- Nav title - END -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobile-nav" aria-controls="mobile-nav" aria-expanded="false" aria-label="Mobile menu">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <!-- Hamburger button toggler - END -->
+    <header class="mb-4">
+        <div id="bg-rgba-dark" class="container-fluid p-0">
+            <nav id="header-nav" class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand courgette-r" href="#">Cui'zine</a>
+                <!-- Nav title - END -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobile-nav" aria-controls="mobile-nav" aria-expanded="false" aria-label="Mobile menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Hamburger button toggler - END -->
 
-            <div class="collapse navbar-collapse" id="mobile-nav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Accueil</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="equipe.html">Equipe</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="blog.html">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                </ul>
+                <div class="collapse navbar-collapse" id="mobile-nav">
+                    <ul class="navbar-nav ml-auto oswald-l">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="equipe.html">Equipe</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Collapsed menu - END -->
+            </nav>
+            <!-- Navigation - END -->
+
+            <div id="hero-banner" class="row no-gutters align-content-center text-center text-white bg-rgba-dark">
+                <div class="col">
+                    <img id="logo-white" class="mb-2" src="assets/img/logo_square_white.png">
+                    <h1 class="courgette-r">Cui'zine</h1>
+                    <h2 class="lead courgette-r">Le mag cuisine</h2>
+                </div>
             </div>
-            <!-- Collapsed menu - END -->
-        </nav>
-        <!-- Navigation - END -->
+            <!-- Hero Banner - END -->
+        </div>
+        <!-- Top container - END -->
+    </header>
+    <!-- Header - END -->
 
-        <header id="hero-banner" class="row no-gutters align-content-center text-center text-white bg-rgba-dark">
+    <main class="container-lg mb-4">
+        <section class="row align-content-center text-center mb-4">
             <div class="col">
-                <h1 class="display-6">Cui'zine</h1>
-                <p class="lead">Le mag cuisine</p>
-            </div>
-        </header>
-        <!-- Hero Banner - END -->
-    </div>
-    <!-- Top container - END -->
-
-    <main class="container">
-        <section class="row align-content-center text-center m-tb-row-3">
-            <div class="col">
-                <h2 class="lead">Derniers Articles</h2>
+                <h3 class="oswald-r">Derniers articles</h3>
             </div>
         </section>
         <!-- Article section title - END -->
         <section class="row">
-            <div class="col">
-                <ul class="list-unstyled">
-                    <li class="media">
-                        <img src="./assets/img/articles/suzette/suzette-small.jpg" class="img-articles align-self-center mr-3" alt="crêpe suzette">
-                        <div class="media-body">
-                            <h5 class="mt-0 mb-1">Chez Suzette, la nouvelle crêperie qui fait parler d'elle</h5>
-                            <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
-                        </div>
-                    </li>
-                    <li class="media my-4">
-                        <img src="./assets/img/articles/metro/metro-small.jpg" class="img-articles align-self-center mr-3" alt="le métro dessert">
-                        <div class="media-body">
-                            <h5 class="mt-0 mb-1">Le métro dessert</h5>
-                            <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
-                        </div>
-                    </li>
-                    <li class="media">
-                        <img src="./assets/img/articles/vitaly/vitaly-small.jpg" class="img-articles align-self-center mr-3" alt="vitaly, le végan italien">
-                        <div class="media-body">
-                            <h5 class="mt-0 mb-1">Vitaly, le végan italien</h5>
-                            <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
-                        </div>
-                    </li>
-                </ul>
-            </div>
+            <article class="col">
+                <div class="row">
+                    <div class="col-12 col-md-4 mb-4">
+                        <img src="./assets/img/articles/suzette/suzette-small.jpg" class="img-fluid align-self-center mr-3" alt="crêpe suzette">
+                    </div>
+                    <div class="col-12 col-md-8">
+                        <h5 class="courgette-r mt-0 mb-1">Chez Suzette, la nouvelle crêperie qui fait parler d'elle</h5>
+                        <p class="text-secondary oswald-r line-height-1">
+                            <small>la franchise "Chez Suzette" qui fait un carton qui fait
+                                un carton chez les bretons ouvre son premier restaurant
+                                dans le quartier latin. Antoine de Cui'zine a testé pour vous les saveurs sucrés,
+                                salés au froment ou au sarrazin !
+                            </small>
+                        </p>
+                    </div>
+                    <div class="col-12 col-md-4 mb-4">
+                        <img src="./assets/img/articles/metro/metro-small.jpg" class="img-fluid align-self-center mr-3" alt="le métro dessert">
+                    </div>
+                    <div class="col-12 col-md-8">
+                        <h5 class="courgette-r mt-0 mb-1">Le métro dessert</h5>
+                        <p class="text-secondary oswald-r line-height-1">
+                            <small>Germain est ferrovipathe (ndlr: fan de train), son fils Maxîme est patissier.
+                                Ils ont décidés de réunir leurs deux passions dans un restaurant à la déco inspiré
+                                du métro parisien. A voir absolument, mais qu'en est-il d'y aller pour manger ?
+                                Clémentine entre en gare et nous donne son avis.
+                            </small>
+                        </p>
+                    </div>
+                    <div class="col-12 col-md-4 mb-4">
+                        <img src="./assets/img/articles/vitaly/vitaly-small.jpg" class="img-fluid align-self-center mr-3" alt="vitaly, le végan italien">
+                    </div>
+                    <div class="col-12 col-md-8">
+                        <h5 class="courgette-r mt-0 mb-1">Vitaly, le végan italien</h5>
+                        <p class="text-secondary oswald-r line-height-1">
+                            <small>Quand on pense italien, on pense lasagne ou jambon de Parme. Ils l'ont fait,
+                                les saveurs de l'italie à portée des herbivores. Cette fois, c'est moi Tony
+                                qui va le tester pour vous.
+                            </small>
+                        </p>
+                    </div>
+                </div>
+            </article>
             <!-- Article section - END -->
-            <aside class="col-4 sm-none">
-                <form>
+            <div class="col-3 sm-none">
+                <form class="mb-2">
                     <div class="form">
                         <div class="row">
                             <div class="col">
@@ -95,13 +115,13 @@
                         </div>
                         <div class="row">
                             <div class="col">
-                                <button type="submit" class="btn btn-block btn-primary">OK</button>
+                                <button type="submit" class="btn btn-block btn-outline-dark">OK</button>
                             </div>
                         </div>
                     </div>
                 </form>
                 <!-- Search form - END -->
-                <form>
+                <form class="mb-2">
                     <div class="form">
                         <div class="row">
                             <div class="col">
@@ -112,50 +132,160 @@
                     </div>
                     <div class="row">
                         <div class="col">
-                            <button type="submit" class="btn btn-block btn-primary">S'inscrire</button>
+                            <button type="submit" class="btn btn-block btn-outline-dark">S'inscrire</button>
                         </div>
                     </div>
                 </form>
                 <!-- Newsletter form - END -->
                 <div class="row">
                     <div class="col-12">
-                        <h3 class="small">Partager</h3>
+                        <h5 class="small">Partager</h5>
                     </div>
                     <div class="col">
                         <ul class="list-inline">
                             <li class="list-inline-item">
                                 <a href="#" target="_blank">
-                                    <img src="..." alt="..." >
+                                    <i class="fab fa-facebook-square"></i>
                                 </a>
                             </li>
                             <li class="list-inline-item">
                                 <a href="#" target="_blank">
-                                    <img src="..." alt="..." >
+                                    <i class="fab fa-instagram"></i>
                                 </a>
                             </li>
                             <li class="list-inline-item">
                                 <a href="#" target="_blank">
-                                    <img src="..." alt="..." >
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-twitter"></i>
                                 </a>
                             </li>
                         </ul>
                     </div>
                 </div>
-
+                <!-- Share Links - END-->
               </aside>
               <!-- Search & newsletter section - END -->
         </section>
+        <!-- Articles and sidebar section - END-->
+        <section class="row align-content-center">
+            <div class="col">
+                <a href="#">
+                    <p class="text-secondary oswald-r">&laquo; Voir les articles précédents</p>
+                </a>
+            </div>
+        </section>
+        <!-- Pagination - END -->
     </main>
     <!-- Main section - END -->
-
-    <footer>
-        <!-- Headache, gonna stop for now sorry -->
+    <footer class="py-5 p-md-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg">
+                    <h5 class="courgette-r text-white">Catégories</h5>
+                    <ul id="footer-links" class="list-unstyled small oswald-l">
+                        <li>
+                            <u>
+                                <a class="text-white" href="#">Revues</a>
+                            </u>
+                        </li>
+                        <li>
+                            <u>
+                                <a class="text-white" href="#">Recettes</a>
+                            </u>
+                        </li>
+                        <li>
+                            <u>
+                                <a class="text-white" href="#">Découvertes</a>
+                            </u>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Categories - END -->
+                <div class="col-md-12 col-lg">
+                    <h5 class="courgette-r text-white">Archives</h5>
+                    <ul id="footer-links" class="list-unstyled small oswald-l">
+                        <li>
+                            <u>
+                                <a class="text-white" href="#">2019</a>
+                            </u>
+                        </li>
+                        <li>
+                            <u>
+                                <a class="text-white" href="#">2018</a>
+                            </u>
+                        </li>
+                        <li >
+                            <u>
+                                <a class="text-white" href="#">2017</a>
+                            </u>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Archives - END -->
+                <div class="col-auto">
+                    <form class="mb-3">
+                        <div class="form-row">
+                            <div class="col-12">
+                                <label for="input-email-footer" class="courgette-r text-white">Newsletter</label>
+                            </div>
+                            <div class="col">
+                                <input type="email" class="form-control" id="input-email-footer" placeholder="Email...">
+                            </div>
+                            <div class="col">
+                                <button type="submit" class="btn btn-outline-light">S'inscrire</button>
+                            </div>
+                        </div>
+                    </form>
+                    <!-- Newsletter footer - END -->
+                    <div class="row">
+                        <div class="col">
+                            <h6 class="courgette-r text-white">Partager</h6>
+                            <ul class="list-inline">
+                                <li class="list-inline-item mr-0">
+                                    <a href="#" target="_blank">
+                                        <div class="rounded w-25px bg-white text-center">
+                                            <i class="fab fa-facebook-square"></i>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item mr-0">
+                                    <a href="#" target="_blank">
+                                        <div class="rounded w-25px bg-white text-center">
+                                            <i class="fab fa-instagram"></i>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item mr-0">
+                                    <a href="#" target="_blank">
+                                        <div class="rounded w-25px bg-white text-center">
+                                            <i class="fab fa-youtube"></i>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item mr-0">
+                                    <a href="#" target="_blank">
+                                        <div class="rounded w-25px bg-white text-center">
+                                            <i class="fab fa-twitter"></i>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Share links footer - END -->
+                </div>
+            </div>
+        </div>
     </footer>
     <!-- Footer - END -->
-
 </body>
 <!-- Scripts -->
 <script src="./assets/js/jquery-3.5.1.min.js"></script>
 <script src="./assets/js/bootstrap.bundle.js"></script>
+<script src="https://kit.fontawesome.com/447b2c752f.js" crossorigin="anonymous"></script>
 <!-- Scripts - END -->
 </html>
