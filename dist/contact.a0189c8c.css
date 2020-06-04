@@ -3,7 +3,9 @@
 /***************************************************/
 
 /* backgrounds */
-#bg-plate { background: url("../img/header.jpg") center no-repeat; }
+#bg-plate { background: url("/header.e3a437ad.jpg") center no-repeat; }
 
 /* leaflet map */
-#leaflet-map { height: 400px; }
+.leaflet-map { height: 400px; }
+
+/*# sourceMappingURL=/contact.a0189c8c.css.map */

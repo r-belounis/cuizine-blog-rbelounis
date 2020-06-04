@@ -1,0 +1,21 @@
+{
+  "name": "cuizine_starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "transition.js",
+  "scripts": {
+    "cleanup": "rm -rf .cache dist",
+    "dev": "parcel index.html"
+  },
+  "author": "Reza Belounis",
+  "license": "ISC",
+  "dependencies": {
+    "@dogstudio/highway": "^2.2.1",
+    "gsap": "^3.3.0",
+    "jquery": "^3.5.1",
+    "parcel-bundler": "^1.12.4"
+  },
+  "devDependencies": {
+    "sass": "^1.26.7"
+  }
+}

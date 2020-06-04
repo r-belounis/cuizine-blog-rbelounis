@@ -1,0 +1,47 @@
+/***************************************************/
+/**          Main CSS by Reza Belounis            **/
+/***************************************************/
+
+/* Imports */
+@font-face { /* Oswald-regular */
+    font-family: Oswald-regular;
+    src: url(/Oswald-Regular.d625d126.ttf);}
+@font-face { /* Courgette */
+    font-family: Oswald-light;
+    src: url(/Oswald-Light.5c2af4d7.ttf);}
+@font-face { /* Courgette */
+    font-family: Courgette;
+    src: url(/Courgette-Regular.ab4575c9.ttf);}
+
+/* Font family */
+.oswald-r { font-family: "Oswald-regular"; }
+.oswald-l { font-family: "Oswald-light"; }
+.courgette-r { font-family : "Courgette"; }
+
+/* line-heights */
+.line-height-1 { line-height: 1rem; }
+
+/* heights */
+#hero-banner { height: 400px; }
+
+/* Widths */
+.w-25px { width: 25px; }
+.w-60px { width: 60px; }
+
+/* Backgrounds */
+footer { background-color: black; }
+.bg-rgba-dark { background-color: rgba(0, 0, 0, .7); }
+
+/* Colors */
+.fab {color: black; } /* Font-awesome global dark color
+
+/* Borders */
+#header-nav { border-bottom: 1px solid rgba(255, 255, 255, .2); }
+
+/* Opacity */
+#haters { opacity: .5; }
+
+/* Images */
+#logo-white { width: 50px; }
+
+/*# sourceMappingURL=/main.2b755954.css.map */
