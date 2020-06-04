@@ -1,0 +1,9 @@
+/***************************************************/
+/**       Team-member CSS by Reza Belounis        **/
+/***************************************************/
+
+/* backgrounds */
+#bg-team { background: url("../img/team/team.jpg") center no-repeat; }
+
+/* width */
+#img-team-member { width: 200px; }

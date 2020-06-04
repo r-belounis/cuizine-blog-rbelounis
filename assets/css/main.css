@@ -26,11 +26,11 @@
 
 /* Widths */
 .w-25px { width: 25px; }
+.w-60px { width: 60px; }
 
 /* Backgrounds */
-header { background: url("../img/header.jpg") center no-repeat; }
 footer { background-color: black; }
-#bg-rgba-dark { background-color: rgba(0, 0, 0, .7); }
+.bg-rgba-dark { background-color: rgba(0, 0, 0, .7); }
 
 /* Colors */
 .fab {color: black; } /* Font-awesome global dark color
@@ -38,16 +38,8 @@ footer { background-color: black; }
 /* Borders */
 #header-nav { border-bottom: 1px solid rgba(255, 255, 255, .2); }
 
+/* Opacity */
+#haters { opacity: .5; }
+
 /* Images */
 #logo-white { width: 50px; }
-
-/* Visible/Hidding */
-@media (max-width: 768px) { /* small screens */
-    .sm-visible { visibility: visible; }
-    .sm-hide { visibility: hidden; }
-    .sm-none { display: none; }}
-
-@media (min-width: 769px) { /* medium+ screens */
-    .md-visible { visibility: visible; }
-    .md-hide { visibility: hidden; }
-    .md-none { display: none; }}
