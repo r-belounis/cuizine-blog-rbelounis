@@ -2,7 +2,7 @@
   "name": "cuizine_starter",
   "version": "1.0.0",
   "description": "",
-  "main": "transition.js",
+  "main": "main.js",
   "scripts": {
     "cleanup": "rm -rf .cache dist",
     "dev": "parcel index.html"
