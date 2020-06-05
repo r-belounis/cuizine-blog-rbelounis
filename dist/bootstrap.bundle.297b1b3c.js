@@ -117,7 +117,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   }
 
   return newRequire;
-})({"../../../../../../AppData/Roaming/npm/node_modules/parcel/node_modules/process/browser.js":[function(require,module,exports) {
+})({"node_modules/process/browser.js":[function(require,module,exports) {
 
 // shim for using process in browser
 var process = module.exports = {}; // cached from whatever global is present so that test runners that stub it
@@ -11203,7 +11203,7 @@ if ( typeof noGlobal === "undefined" ) {
 return jQuery;
 } );
 
-},{"process":"../../../../../../AppData/Roaming/npm/node_modules/parcel/node_modules/process/browser.js"}],"assets/js/vendor/bootstrap.bundle.js":[function(require,module,exports) {
+},{"process":"node_modules/process/browser.js"}],"assets/js/vendor/bootstrap.bundle.js":[function(require,module,exports) {
 var define;
 var global = arguments[3];
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -18230,7 +18230,7 @@ function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "functi
     value: true
   });
 });
-},{"jquery":"node_modules/jquery/dist/jquery.js"}],"../../../../../../AppData/Roaming/npm/node_modules/parcel/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"jquery":"node_modules/jquery/dist/jquery.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -18258,7 +18258,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60744" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57808" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -18434,5 +18434,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["../../../../../../AppData/Roaming/npm/node_modules/parcel/src/builtins/hmr-runtime.js","assets/js/vendor/bootstrap.bundle.js"], null)
+},{}]},{},["node_modules/parcel-bundler/src/builtins/hmr-runtime.js","assets/js/vendor/bootstrap.bundle.js"], null)
 //# sourceMappingURL=/bootstrap.bundle.297b1b3c.js.map

@@ -6,4 +6,4 @@
 #bg-plate { background: url("../img/header.jpg") center no-repeat; }
 
 /* leaflet map */
-#leaflet-map { height: 400px; }
+#leaflet { height: 400px; }
